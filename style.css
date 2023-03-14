@@ -1,0 +1,51 @@
+.display-container {
+    text-align: center;
+}
+.display-container .display input{
+    font-size: 25px;
+    padding: 0;
+    text-align: center;
+    width: 91%;
+    user-select: none;
+    cursor: pointer;
+}
+
+.value_range {
+    display: flex;
+    flex-direction: row;
+    justify-content: center space-between;
+    margin: 2em;
+    padding: 0;
+}
+
+
+.value_range input {
+    margin-left: 1em;
+    width: 100%;
+    text-align: center;
+}
+
+.amount_value {
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+    padding: 0;
+}
+
+.amount_value input {
+    /* margin-left: auto; */
+    width: 262px;
+    text-align: center;
+}
+
+.help_and_submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.help_and_submit button {
+    background-color: white;
+    padding: 1em;
+    cursor: pointer;
+}
